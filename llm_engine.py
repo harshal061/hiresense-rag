@@ -33,7 +33,7 @@ def evaluate_candidate(query, context):
     - 5–6: Moderate match (some relevant skills missing)
     - below 5: Weak match
 
-    If a critical requirement (like AWS, cloud, or specific technology mentioned in the job requirement) is missing,
+    If a critical requirement (like specific technology mentioned in the job requirement) is missing,
     you MUST reduce the score significantly.
     Missing critical skills should prevent scores above 7.
     If critical skills are missing, clearly state that the candidate is not a strong fit.
